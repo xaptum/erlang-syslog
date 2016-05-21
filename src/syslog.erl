@@ -26,7 +26,7 @@
 
 -behaviour(gen_server).
 
--define(DRV_NAME, "syslog_drv").
+-define(DRV_NAME, "erlang-syslog").
 
 %% this constant must match the same in syslog_drv.c
 -define(SYSLOGDRV_OPEN,  1).
